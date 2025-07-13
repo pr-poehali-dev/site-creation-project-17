@@ -50,6 +50,9 @@ const Index = () => {
               </h1>
             </div>
             <nav className="hidden md:flex space-x-6">
+              <a href="/" className="text-orange-400 transition-colors">
+                Главная
+              </a>
               <a
                 href="#"
                 className="text-white/80 hover:text-orange-400 transition-colors"
@@ -57,22 +60,16 @@ const Index = () => {
                 Матчи
               </a>
               <a
-                href="#"
+                href="/profile"
                 className="text-white/80 hover:text-orange-400 transition-colors"
               >
-                Рейтинги
+                Профиль
               </a>
               <a
-                href="#"
+                href="/about"
                 className="text-white/80 hover:text-orange-400 transition-colors"
               >
-                Турниры
-              </a>
-              <a
-                href="#"
-                className="text-white/80 hover:text-orange-400 transition-colors"
-              >
-                Профили
+                О создателе
               </a>
             </nav>
             <Button className="bg-orange-500 hover:bg-orange-600 text-white">
